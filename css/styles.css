@@ -101,8 +101,6 @@ button {
 
 .footer-container {
     display: block;
-    width: 231px;
-    /*outline: 1px solid tomato;*/
     padding-left: 15px;
     padding-right: 0;
     /*padding-top: 60px;
@@ -681,8 +679,9 @@ button {
 .company-icon {
     display: flex;
     justify-items: center;
-    width: 106px;
-    height: 60px;
+    width: 170px; /*106px*/
+    height: 92px; /*60px*/
+    padding: 16px 32px;
     fill: #AFB1B8;
 }
 
@@ -694,9 +693,6 @@ button {
     height: 92px;
     outline: 1px solid #AFB1B8;
     border-radius: 4px;
-}
-
-.customers-item {
     margin-right: 30px;
 }
 
@@ -709,10 +705,18 @@ button {
     outline: 1px solid #2196F3;
 }
 
+.customers-item:hover ,
+.customers-item:focus {
+    fill: var(--accent-text-color);
+}
+
 .company-icon:hover ,
 .company-icon:focus {
     fill: #2196F3;
 }
+
+
+
 
 /*---------------------------------PORTFOLIO-----------------------------*/
 
