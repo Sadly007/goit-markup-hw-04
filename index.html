@@ -26,24 +26,22 @@
                     </nav>
                     <ul class="header-list list">
                         <li class="header-item">
-                            <span class="header-logo">
-                                <svg class="header-icon">
-                                    <use href="./images/icons.svg#icon-email-logo" width="16" hight="12"></use>
+                            <div class="header-icon">
+                                <svg class="email-icon">
+                                    <use href="./images/icons.svg#icon-email-logo"></use>
                                 </svg>
-                            </span>
                             <a href="mailto:info@devstudio.com" class="header-info-link link">info@devstudio.com</a>
+                            </div>
                         </li>
                         <li class="header-item">
-                            <span class="header-second-logo">
-                            <svg class="header-second-icon">
-                                <use href="./images/icons.svg#icon-phone-logo" width="10" hight="16"></use>
-                            </svg>
-                            </span>
+                            <div class="header-icon">
+                                <svg class="phone-icon">
+                                   <use href="./images/icons.svg#icon-phone-logo" width="10" hight="16"></use>
+                                </svg>
                             <a href="tell:+380961111111" class="header-info-link link">+38 096 111 11 11</a>
+                            </div>
                         </li>
-                    </ul>
-                    </div>
-                </div>
+                    </ul> 
     </header>
     <main class="main">
         <div class="hero-container">
@@ -60,28 +58,48 @@
             </h2>
             <div class="qualities-container">
                 <ul class="qualities-list list">
-                    <li class="qualities-item-one qualities-item">
+                     <li class=" qualities-item"> <!--qualities-item-one--> 
+                        <div class="container-icon">
+                        <svg class="qualities-icon" >
+                            <use  href="./images/icons-two.svg#icon-antenna"></use>
+                        </svg>
+                        </div>
                         <h3 class="qualities-top-text">
                             Внимание к деталям
                         </h3>
                         <p class="qualities-bottom-text">Идейные соображения, а также начало повседневной работы по формированию
                             позиции.</p>
                     </li>
-                    <li class="qualities-item-two qualities-item">
+                    <li class="qualities-item">
+                        <div class="container-icon">
+                            <svg class="qualities-icon">
+                                <use href="./images/icons-two.svg#icon-clock"></use>
+                            </svg>
+                        </div>
                         <h3 class="qualities-top-text">
                             Пунктуальность
                         </h3>
                         <p class="qualities-bottom-text"> Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.</p>
                     </li>
-                    <li class="qualities-item-three qualities-item">
+                    <li class="qualities-item">
+                        <div class="container-icon">
+                            <svg class="qualities-icon">
+                                <use href="./images/icons-two.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
                         <h3 class="qualities-top-text">
                             Планирование
                         </h3>
                         <p class="qualities-bottom-text">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
-                    <li class="qualities-item-four qualities-item">
+                    <li class="qualities-item">
+                        <div class="container-icon">
+                            <svg class="qualities-icon">
+                                <use href="./images/icons-two.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="qualities-top-text">
                             Современные технологии
                         </h3>
@@ -351,7 +369,8 @@
     </main>
     </div>
     <footer class="footer">
-        <div class="footer-group">
+        <div class="container">
+            <div class="footer-group">
                 <div class="footer-container">
                     <a href="/" lang="en" class="first-footer-link link">Web<span class="secondary-footer-link link">Studio</span></a>
                     <ul class="footer-list list">
@@ -399,6 +418,7 @@
                         </li>
                     </ul>
                 </section>
+            </div> 
         </div>
     </footer>
 </body>
